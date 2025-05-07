@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Graphica</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="Платформа для дизайнеров, предлагающая статьи, курсы, галереи работ, шаблоны и советы по современному дизайну. Подходит как для новичков, так и для профессионалов в области графического дизайна, UI/UX, Figma, интерфейсов, дизайн-трендов и брендинга."
+        />
+        <meta
+            name="keywords"
+            content="графический дизайн, UI/UX, Figma, интерфейсы, дизайн-тренды, брендинг, курсы по дизайну, шаблоны для дизайнеров, галерея дизайнерских работ, советы по графическому дизайну"
+        />
+        <meta name="author" content="Платформа для дизайнеров" />
+
+        <!-- Facebook and Twitter integration -->
+        <meta property="og:title" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:site_name" content="" />
+        <meta property="og:description" content="" />
+        <meta name="twitter:title" content="" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:url" content="" />
+        <meta name="twitter:card" content="" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700"
+            rel="stylesheet"
+        />
+
+        <!-- Favicon -->
+        <link href="images/favicon.ico" rel="icon" />
+
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.css" />
+        <!-- Icomoon Icon Fonts-->
+        <link rel="stylesheet" href="css/icomoon.css" />
+        <!-- Bootstrap  -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="css/magnific-popup.css" />
+
+        <!-- Owl Carousel  -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+        <!-- Flexslider  -->
+        <link rel="stylesheet" href="css/flexslider.css" />
+        <!-- Flaticons  -->
+        <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+
+        <!-- Theme style  -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!-- Modernizr JS -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <!-- FOR IE9 below -->
+        <!--[if lt IE 9]>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="colorlib-loader"></div>
+
+        <div id="page">
+            <nav class="colorlib-nav" role="navigation">
+                <div class="top-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div id="colorlib-logo">
+                                    <a href="index.html"
+                                        >Grap<span>hica.</span></a
+                                    >
+                                </div>
+                            </div>
+                            <div class="col-md-10 text-right menu-1">
+                                <ul>
+                                    <li class="active">
+                                        <a href="index.html">Главная</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">О платформе</a>
+                                    </li>
+                                    <li>
+                                        <a href="service.html">Материалы</a>
+                                    </li>
+                                    <li>
+                                        <a href="testimonials.html">Отзывы</a>
+                                    </li>
+                                    <li><a href="contact.html">Контакты</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <aside id="colorlib-hero" class="js-fullheight">
+                <div class="flexslider js-fullheight">
+                    <ul class="slides">
+                        <li style="background-image: url(images/img_bg_1.jpg)">
+                            <div class="overlay-gradient"></div>
+                            <div class="container">
+                                <div class="row">
+                                    <div
+                                        class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text"
+                                    >
+                                        <div class="slider-text-inner">
+                                            <h1>
+                                                Раскройте свой потенциал в
+                                                дизайне вместе с Graphica
+                                            </h1>
+                                            <h2>
+                                                Изучайте статьи по графическому
+                                                дизайну, открывайте новые тренды
+                                                в UI/UX, работайте в Figma и
+                                                вдохновляйтесь работами других
+                                                дизайнеров. Наша платформа
+                                                предлагает качественные курсы,
+                                                шаблоны и галереи, чтобы вы
+                                                смогли совершенствовать навыки в
+                                                создании интерфейсов и развивать
+                                                собственный брендинг. Подходит
+                                                как для начинающих, так и для
+                                                опытных дизайнеров.
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image: url(images/img_bg_2.jpg)">
+                            <div class="overlay-gradient"></div>
+                            <div class="container">
+                                <div class="row">
+                                    <div
+                                        class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text"
+                                    >
+                                        <div class="slider-text-inner">
+                                            <h1>
+                                                Развивайте навыки в
+                                                UI/UX-дизайне с лучшими
+                                                материалами
+                                            </h1>
+                                            <h2>
+                                                Мы предоставляем доступ к
+                                                эксклюзивным статьям, подборкам
+                                                шаблонов и гайдам по
+                                                современному графическому
+                                                дизайну. Узнайте всё о Figma,
+                                                интерфейсах и актуальных
+                                                дизайн-трендах. Создавайте
+                                                стильные и удобные проекты,
+                                                которые будут выделяться.
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image: url(images/img_bg_3.jpg)">
+                            <div class="overlay-gradient"></div>
+                            <div class="container">
+                                <div class="row">
+                                    <div
+                                        class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text"
+                                    >
+                                        <div class="slider-text-inner">
+                                            <h1>
+                                                Идеи, шаблоны и вдохновение для
+                                                вашего дизайна
+                                            </h1>
+                                            <h2>
+                                                Погрузитесь в коллекции
+                                                дизайнерских работ, учитесь у
+                                                лучших, изучайте принципы
+                                                брендинга и создавайте
+                                                уникальные решения. Платформа
+                                                Graphica — это пространство для
+                                                развития вашего творчества и
+                                                профессионального роста.
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+            <div id="intro-bg">
+                <div class="container">
+                    <div id="colorlib-intro">
+                        <div class="third-col">
+                            <span class="icon"><i class="icon-cog"></i></span>
+                            <h2>Нужны ресурсы для развития в дизайне?</h2>
+                            <p>
+                                Мы предлагаем всё необходимое для дизайнеров —
+                                статьи, обучающие курсы, галереи работ, шаблоны
+                                и советы по Figma, UI/UX и брендингу. Освойте
+                                графический дизайн с нуля или прокачайте
+                                профессиональные навыки, ориентируясь на
+                                современные тренды и лучшие практики.
+                            </p>
+                        </div>
+                        <div class="third-col third-col-color">
+                            <span class="icon"
+                                ><i class="icon-old-phone"></i
+                            ></span>
+                            <h2>Позвоните нам: +77172554509</h2>
+                            <h2>
+                                Напишите нам:
+                                <a
+                                    id="index-email"
+                                    href="mailto:graphica@gmail.com"
+                                    >graphica@gmail.com</a
+                                >
+                            </h2>
+                            <p>
+                                Мы всегда готовы ответить на ваши вопросы! В
+                                Graphica вы найдете поддержку и ресурсы, которые
+                                помогут вам углубить знания в графическом
+                                дизайне, UI/UX и Figma. Присоединяйтесь к
+                                сообществу творческих людей и развивайтесь
+                                вместе с нами.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                id="colorlib-counter"
+                class="colorlib-counters"
+                style="background-image: url(images/img_bg_3.jpg)"
+                data-stellar-background-ratio="0.5"
+            >
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 text-center animate-box">
+                            <span class="icon"
+                                ><i class="flaticon-lawyer-1"></i
+                            ></span>
+                            <span
+                                class="colorlib-counter js-counter"
+                                data-from="0"
+                                data-to="35"
+                                data-speed="5000"
+                                data-refresh-interval="50"
+                            ></span>
+                            <span class="colorlib-counter-label"
+                                >Экспертов по дизайну</span
+                            >
+                        </div>
+                        <div class="col-md-3 text-center animate-box">
+                            <span class="icon"
+                                ><i class="flaticon-courthouse"></i
+                            ></span>
+                            <span
+                                class="colorlib-counter js-counter"
+                                data-from="0"
+                                data-to="1653"
+                                data-speed="5000"
+                                data-refresh-interval="50"
+                            ></span>
+                            <span class="colorlib-counter-label"
+                                >Удовлетворённых пользователей</span
+                            >
+                        </div>
+                        <div class="col-md-3 text-center animate-box">
+                            <span class="icon"
+                                ><i class="flaticon-libra"></i
+                            ></span>
+                            <span
+                                class="colorlib-counter js-counter"
+                                data-from="0"
+                                data-to="1687"
+                                data-speed="5000"
+                                data-refresh-interval="50"
+                            ></span>
+                            <span class="colorlib-counter-label"
+                                >Размещённых работ</span
+                            >
+                        </div>
+                        <div class="col-md-3 text-center animate-box">
+                            <span class="icon"
+                                ><i class="flaticon-police-badge"></i
+                            ></span>
+                            <span
+                                class="colorlib-counter js-counter"
+                                data-from="0"
+                                data-to="250"
+                                data-speed="5000"
+                                data-refresh-interval="50"
+                            ></span>
+                            <span class="colorlib-counter-label"
+                                >Профессиональных шаблонов</span
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="colorlib-practice">
+                <div class="container">
+                    <div class="row animate-box">
+                        <div
+                            class="col-md-8 col-md-offset-2 text-center colorlib-heading"
+                        >
+                            <h2>
+                                Ваш надежный ресурс в мире современного дизайна
+                            </h2>
+                            <p>
+                                Выбор правильной платформы — ключ к развитию в
+                                области графического дизайна, UI/UX и брендинга.
+                                Мы предлагаем курсы, статьи, шаблоны и галереи
+                                работ, которые помогут начинающим и
+                                профессиональным дизайнерам развивать навыки,
+                                узнавать о дизайн-трендах и эффективно работать
+                                с инструментами вроде Figma. Наша цель —
+                                предоставить вам понятный и полезный контент для
+                                уверенного роста в профессии.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 text-center animate-box">
+                            <div class="services">
+                                <div class="desc">
+                                    <h3>
+                                        <a href="#"
+                                            >Актуальные статьи по графическому
+                                            дизайну</a
+                                        >
+                                    </h3>
+                                    <p>
+                                        Изучайте полезные материалы по
+                                        графическому дизайну, интерфейсам и
+                                        брендингу. Мы публикуем практические
+                                        статьи, в которых рассматриваются
+                                        современные подходы и тенденции в UI/UX,
+                                        а также работа с Figma и другими
+                                        инструментами визуального
+                                        проектирования.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center animate-box">
+                            <div class="services">
+                                <div class="desc">
+                                    <h3>
+                                        <a href="#"
+                                            >Курсы и обучающие материалы по
+                                            UI/UX</a
+                                        >
+                                    </h3>
+                                    <p>
+                                        Наши курсы подойдут как новичкам, так и
+                                        опытным специалистам. Освойте принципы
+                                        построения удобных интерфейсов,
+                                        научитесь работать с макетами в Figma и
+                                        разрабатывать решения, соответствующие
+                                        последним дизайн-трендам. Учитесь
+                                        создавать эффективные визуальные
+                                        продукты.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center animate-box">
+                            <div class="services">
+                                <div class="desc">
+                                    <h3>
+                                        <a href="#"
+                                            >Галереи и шаблоны для дизайнеров</a
+                                        >
+                                    </h3>
+                                    <p>
+                                        Вдохновляйтесь лучшими примерами
+                                        современного дизайна. Наши галереи работ
+                                        и подборки шаблонов помогут вам находить
+                                        идеи и создавать собственные проекты
+                                        быстрее и качественнее. Мы делимся
+                                        дизайнами, интерфейсами и
+                                        брендинг-решениями, которые выделяются и
+                                        работают.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                id="colorlib-started"
+                style="background-image: url(images/img_bg_2.jpg)"
+                data-stellar-background-ratio="0.5"
+            >
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row animate-box">
+                        <div
+                            class="col-md-8 col-md-offset-2 text-center colorlib-heading colorlib-heading2"
+                        >
+                            <h2>Развитие в дизайне начинается здесь</h2>
+                            <p>
+                                В мире, где дизайн играет ключевую роль в
+                                восприятии брендов и интерфейсов, важно
+                                постоянно развиваться. Наша платформа предлагает
+                                статьи, советы, курсы и шаблоны, которые помогут
+                                вам уверенно работать с графическим дизайном,
+                                UI/UX и Figma. Получайте новые знания,
+                                вдохновляйтесь и создавайте проекты,
+                                соответствующие современным стандартам.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="colorlib-blog">
+                <div class="container">
+                    <div class="row animate-box">
+                        <div
+                            class="col-md-8 col-md-offset-2 text-center colorlib-heading"
+                        >
+                            <h2>Советы и идеи для дизайнеров</h2>
+                            <p>
+                                Следите за нашими публикациями, чтобы быть в
+                                курсе последних трендов в графическом дизайне и
+                                интерфейсах. Мы делимся статьями о дизайне,
+                                Figma, UI/UX, брендинге и других аспектах
+                                визуального творчества. Наша цель — дать вам
+                                инструменты и идеи для успешной работы в
+                                индустрии.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="blog-featured animate-box">
+                                <a
+                                    ><img
+                                        class="img-responsive"
+                                        src="images/blog-1.jpg"
+                                        alt=""
+                                /></a>
+                                <h2>
+                                    <a
+                                        >Как развить креативность в графическом
+                                        дизайне</a
+                                    >
+                                </h2>
+                                <p class="meta">
+                                    <span>5 июня 2024</span> |
+                                    <span>3 комментария</span>
+                                </p>
+                                <p>
+                                    В этой статье мы делимся техниками и
+                                    подходами, которые помогут вам мыслить
+                                    нестандартно и создавать уникальные
+                                    визуальные решения. Узнайте, как развивать
+                                    креативность, работать с ограничениями и
+                                    находить вдохновение в повседневности.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-12 animate-box">
+                                    <div class="blog-entry">
+                                        <a class="thumb"
+                                            ><img
+                                                class="img-responsive"
+                                                src="images/blog-2.jpg"
+                                                alt=""
+                                        /></a>
+                                        <div class="desc">
+                                            <h3>
+                                                <a
+                                                    >Создание интерфейсов: от
+                                                    идеи до реализации</a
+                                                >
+                                            </h3>
+                                            <p class="meta">
+                                                <span>15 января 2023</span> |
+                                                <span>13 комментариев</span>
+                                            </p>
+                                            <p>
+                                                В статье рассказываем, как
+                                                спланировать интерфейс,
+                                                используя Figma и другие
+                                                инструменты, и как превратить
+                                                идеи в удобные и эффективные
+                                                пользовательские решения.
+                                                Подходит как для начинающих, так
+                                                и для практикующих
+                                                UI/UX-дизайнеров.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 animate-box">
+                                    <div class="blog-entry">
+                                        <a class="thumb"
+                                            ><img
+                                                class="img-responsive"
+                                                src="images/blog-3.jpg"
+                                                alt=""
+                                        /></a>
+                                        <div class="desc">
+                                            <h3>
+                                                <a
+                                                    >Брендинг: как создать
+                                                    запоминающийся образ</a
+                                                >
+                                            </h3>
+                                            <p class="meta">
+                                                <span>16 января 2024</span> |
+                                                <span>31 комментарий</span>
+                                            </p>
+                                            <p>
+                                                Брендинг — это не просто
+                                                логотип. Мы объясняем, как
+                                                создать сильный визуальный
+                                                образ, который выделит ваш
+                                                проект и останется в памяти у
+                                                аудитории. Узнайте, какие
+                                                элементы брендинга важны и как
+                                                их эффективно использовать.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 animate-box">
+                                    <div class="blog-entry">
+                                        <a class="thumb"
+                                            ><img
+                                                class="img-responsive"
+                                                src="images/blog-4.jpg"
+                                                alt=""
+                                        /></a>
+                                        <div class="desc">
+                                            <h3>
+                                                <a
+                                                    >Дизайн-тренды: что
+                                                    актуально в этом году</a
+                                                >
+                                            </h3>
+                                            <p class="meta">
+                                                <span>17 мая 2024</span> |
+                                                <span>18 комментариев</span>
+                                            </p>
+                                            <p>
+                                                Оставайтесь в курсе самых свежих
+                                                трендов в мире дизайна. В этом
+                                                обзоре — направления, техники и
+                                                стили, которые формируют
+                                                визуальную культуру года.
+                                                Узнайте, как применить тренды в
+                                                своих проектах и выделиться на
+                                                фоне конкурентов.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="colorlib-content" style="flex-direction: row-reverse">
+                <div
+                    class="video colorlib-video"
+                    style="background-image: url(images/video.jpg)"
+                >
+                    <div class="overlay"></div>
+                </div>
+                <div class="choose animate-box">
+                    <div class="colorlib-heading">
+                        <h2>
+                            Комплексный и стратегический подход к обучению
+                            дизайнеров
+                        </h2>
+                        <p>
+                            В центре нашей образовательной платформы лежит
+                            стремление поддерживать дизайнеров на всех этапах их
+                            профессионального пути — от новичков до опытных
+                            специалистов. Мы предлагаем уникальный контент,
+                            который помогает развивать навыки в области
+                            графического дизайна, UI/UX, работы в Figma и
+                            проектирования современных интерфейсов.
+                            <br /><br />
+                            Наш подход основан на практическом обучении через
+                            статьи, видеоуроки, шаблоны и галереи вдохновляющих
+                            работ. Мы подчеркиваем важность дизайн-трендов,
+                            глубоко разбираем тему брендинга и даем действенные
+                            советы, которые можно применять сразу.
+                            <br /><br />
+                            На нашей платформе каждый сможет найти полезные
+                            материалы: начинающие получат прочную основу, а
+                            профессионалы — расширят свои горизонты и узнают о
+                            новейших тенденциях. Вместе мы создаем сообщество, в
+                            котором растут идеи, делятся наработками и
+                            формируются лидеры в мире дизайна.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="colorlib-consult">
+                <div
+                    class="video colorlib-video"
+                    style="background-image: url(images/consult.jpg)"
+                    data-stellar-background-ratio="0.5"
+                ></div>
+                <div class="choose choose-form animate-box">
+                    <div class="colorlib-heading">
+                        <h2>Бесплатная консультация для дизайнеров</h2>
+                    </div>
+                    <form action="thanks.html" method="get">
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <!-- <label for="fname">First Name</label> -->
+                                <input
+                                    type="text"
+                                    id="fname"
+                                    class="form-control"
+                                    placeholder="Ваше имя"
+                                    required
+                                />
+                            </div>
+                            <div class="col-md-6">
+                                <!-- <label for="lname">Last Name</label> -->
+                                <input
+                                    type="text"
+                                    id="lname"
+                                    class="form-control"
+                                    placeholder="Ваша фамилия"
+                                    required
+                                />
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <!-- <label for="email">Email</label> -->
+                                <input
+                                    type="text"
+                                    id="email"
+                                    class="form-control"
+                                    placeholder="Ваш email"
+                                    required
+                                />
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <!-- <label for="message">Message</label> -->
+                                <textarea
+                                    name="message"
+                                    id="message"
+                                    cols="30"
+                                    rows="10"
+                                    class="form-control"
+                                    placeholder="Расскажите нам, что вы хотели бы изучить"
+                                    required
+                                ></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input
+                                type="submit"
+                                value="Отправить сообщение"
+                                class="btn btn-primary"
+                                id="submit"
+                            />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <footer id="colorlib-footer" role="contentinfo">
+                <div class="container">
+                    <div class="row row-pb-md">
+                        <div class="col-md-3 colorlib-widget">
+                            <h4>Graphica</h4>
+                            <p>
+                                Благодарим за посещение нашей платформы! Мы
+                                создаём пространство для дизайнеров, предлагая
+                                уникальные статьи, курсы, галереи работ, шаблоны
+                                и советы по современному графическому дизайну,
+                                UI/UX, Figma и интерфейсам. Наши материалы
+                                подойдут как новичкам, так и профессионалам.
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-md-push-1">
+                            <h4>Навигация</h4>
+                            <ul class="colorlib-footer-links">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="about.html">О нас</a></li>
+                                <li><a href="contact.html">Контакты</a></li>
+                                <li>
+                                    <a href="privacy-policy.html"
+                                        >Конфиденциальность</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="cookie-policy.html"
+                                        >Политика cookie</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="terms-of-use.html"
+                                        >Условия использования</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 col-md-push-1">
+                            <h4>Контактная информация</h4>
+                            <ul class="colorlib-footer-links">
+                                <li>
+                                    Beibitshilik Avenue, #24, Астана 010000,
+                                    Казахстан
+                                </li>
+                                <li>
+                                    <a href="tel://1234567920">+77172554509</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@yoursite.com"
+                                        >graphica@gmail.com</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 col-md-push-1">
+                            <h4>Часы работы</h4>
+                            <ul class="colorlib-footer-links">
+                                <li>Пн - Чт: 9:00 - 21:00</li>
+                                <li>Пт: 8:00 - 21:00</li>
+                                <li>Сб: 9:30 - 15:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <div class="gototop js-top">
+            <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+        </div>
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Использование cookie</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует cookie-файлы для улучшения работы и
+                    предоставления более релевантного контента о графическом
+                    дизайне, интерфейсах и дизайн-трендах.
+                    <a href="cookie-policy.html">Узнать больше...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script>
+        <!-- jQuery Easing -->
+        <script src="js/jquery.easing.1.3.js"></script>
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Waypoints -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <!-- Stellar Parallax -->
+        <script src="js/jquery.stellar.min.js"></script>
+        <!-- Carousel -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- Flexslider -->
+        <script src="js/jquery.flexslider-min.js"></script>
+        <!-- countTo -->
+        <script src="js/jquery.countTo.js"></script>
+        <!-- Magnific Popup -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/magnific-popup-options.js"></script>
+        <!-- Main -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
