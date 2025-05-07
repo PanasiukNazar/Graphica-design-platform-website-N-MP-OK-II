@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'icomoon';
-    src: url('../fonts/icomoon/icomoon.eot?srf3rx');
-    src: url('../fonts/icomoon/icomoon.eot?srf3rx#iefix')
-            format('embedded-opentype'),
-        url('../fonts/icomoon/icomoon.ttf?srf3rx') format('truetype'),
-        url('../fonts/icomoon/icomoon.woff?srf3rx') format('woff'),
-        url('../fonts/icomoon/icomoon.svg?srf3rx#icomoon') format('svg');
+    font-family: "icomoon";
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix")
+            format("embedded-opentype"),
+        url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"),
+        url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"),
+        url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -16,7 +16,7 @@
 *
 * ======================================================= */
 body {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: "Playfair Display", Georgia, serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.7;
@@ -48,11 +48,11 @@ body {
     left: 0;
     z-index: 101;
     background: rgba(0, 0, 0, 0.7);
-    content: '';
+    content: "";
 }
 
 a {
-    color: #e3170aff;
+    color: #97bc62ff;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -60,7 +60,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #e3170aff;
+    color: #97bc62ff;
     outline: none;
     text-decoration: none;
 }
@@ -77,24 +77,24 @@ h5,
 h6,
 figure {
     color: #000;
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: "Playfair Display", Georgia, serif;
     font-weight: 400;
     margin: 0 0 20px 0;
 }
 
 ::-webkit-selection {
     color: #fff;
-    background: #e3170aff;
+    background: #97bc62ff;
 }
 
 ::-moz-selection {
     color: #fff;
-    background: #e3170aff;
+    background: #97bc62ff;
 }
 
 ::selection {
     color: #fff;
-    background: #e3170aff;
+    background: #97bc62ff;
 }
 
 .colorlib-nav .top-menu {
@@ -108,10 +108,10 @@ figure {
     text-transform: uppercase;
     font-weight: bold;
     font-weight: 700;
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: "Playfair Display", Georgia, serif;
 }
 .colorlib-nav #colorlib-logo a {
-    color: #e3170aff;
+    color: #97bc62ff;
 }
 .colorlib-nav #colorlib-logo a span {
     color: #000;
@@ -181,7 +181,7 @@ figure {
     bottom: 100%;
     left: 40px;
     border: solid transparent;
-    content: ' ';
+    content: " ";
     height: 0;
     width: 0;
     position: absolute;
@@ -218,7 +218,7 @@ figure {
     color: #fff;
 }
 .colorlib-nav ul li.btn-cta a span {
-    background: #e3170aff;
+    background: #97bc62ff;
     padding: 10px 20px;
     display: -moz-inline-stack;
     display: inline-block;
@@ -238,7 +238,7 @@ figure {
     box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .colorlib-nav ul li.active > a {
-    color: #e3170aff;
+    color: #97bc62ff;
     position: relative;
 }
 
@@ -350,7 +350,7 @@ figure {
     bottom: 0;
     left: 0;
     right: 0;
-    content: '';
+    content: "";
     background: rgba(0, 0, 0, 0.4);
     z-index: 1;
 }
@@ -419,7 +419,7 @@ figure {
     font-size: 18px;
 }
 #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
-    background: #e3170aff !important;
+    background: #97bc62ff !important;
     -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
     -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
     box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -508,7 +508,7 @@ figure {
     height: 100px;
     font-size: 50px;
     color: #fff;
-    background: #e3170aff;
+    background: #97bc62ff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -521,7 +521,7 @@ figure {
     font-size: 40px;
     display: block;
     color: white;
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: "Playfair Display", Georgia, serif;
     width: 100%;
     font-weight: 700;
     margin-bottom: 0.3em;
@@ -620,7 +620,7 @@ figure {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #e3170aff;
+    border-color: #97bc62ff;
 }
 
 .progress-bar {
@@ -711,7 +711,7 @@ figure {
 }
 .services:hover .icon i,
 .services:focus .icon i {
-    color: #e3170aff;
+    color: #97bc62ff;
 }
 
 .colorlib-social-icons {
@@ -732,7 +732,7 @@ figure {
     display: inline-block;
     zoom: 1;
     *display: inline;
-    color: #e3170aff;
+    color: #97bc62ff;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -751,11 +751,11 @@ figure {
     position: relative;
 }
 .colorlib-contact-info ul li:before {
-    color: #e3170aff;
+    color: #97bc62ff;
     position: absolute;
     left: 0;
     top: 0.05em;
-    font-family: 'icomoon';
+    font-family: "icomoon";
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -768,19 +768,19 @@ figure {
 }
 .colorlib-contact-info ul li.address:before {
     font-size: 30px;
-    content: '\e9d1';
+    content: "\e9d1";
 }
 .colorlib-contact-info ul li.phone:before {
     font-size: 23px;
-    content: '\e9f4';
+    content: "\e9f4";
 }
 .colorlib-contact-info ul li.email:before {
     font-size: 23px;
-    content: '\e9da';
+    content: "\e9da";
 }
 .colorlib-contact-info ul li.url:before {
     font-size: 23px;
-    content: '\e9af';
+    content: "\e9af";
 }
 
 .features {
@@ -877,7 +877,7 @@ figure {
 
 #colorlib-testimonial .owl-theme .owl-dots .owl-dot.active span,
 #colorlib-testimonial .owl-theme .owl-dots .owl-dot:hover span {
-    background: #e3170aff;
+    background: #97bc62ff;
 }
 
 #colorlib-testimonial .owl-theme .owl-dots .owl-dot span {
@@ -942,7 +942,7 @@ figure {
 #colorlib-started .btn {
     height: 54px;
     border: none !important;
-    background: #e3170aff;
+    background: #97bc62ff;
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
@@ -966,7 +966,7 @@ figure {
     color: #011936ff;
 }
 .blog-featured h2 a:hover {
-    color: #e3170aff;
+    color: #97bc62ff;
 }
 
 .blog-entry {
@@ -989,7 +989,7 @@ figure {
     color: #011936ff;
 }
 .blog-entry .desc h3 a:hover {
-    color: #e3170aff;
+    color: #97bc62ff;
 }
 .blog-entry .desc .meta {
     color: #999999;
@@ -1042,7 +1042,7 @@ figure {
     color: rgba(0, 0, 0, 0.3);
 }
 .colorlib-blog .blog-text span.comment a i {
-    color: #e3170aff;
+    color: #97bc62ff;
     padding-left: 7px;
 }
 .colorlib-blog .blog-text .meta {
@@ -1098,7 +1098,7 @@ figure {
 #colorlib-footer h4 {
     color: #fff;
     font-size: 20px;
-    border-bottom: 2px solid #e3170aff;
+    border-bottom: 2px solid #97bc62ff;
     padding-bottom: 15px;
 }
 #colorlib-footer .colorlib-widget {
@@ -1183,7 +1183,7 @@ figure {
 #colorlib-offcanvas ul li.offcanvas-has-dropdown > a:after {
     position: absolute;
     right: 0px;
-    font-family: 'icomoon';
+    font-family: "icomoon";
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -1193,7 +1193,7 @@ figure {
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    content: '\e921';
+    content: "\e921";
     font-size: 20px;
     color: rgba(255, 255, 255, 0.2);
     -webkit-transition: 0.5s;
@@ -1288,7 +1288,7 @@ figure {
 }
 .colorlib-nav-toggle i::before,
 .colorlib-nav-toggle i::after {
-    content: '';
+    content: "";
     width: 25px;
     height: 2px;
     background: #252525;
@@ -1370,7 +1370,7 @@ figure {
 .btn {
     margin-right: 4px;
     margin-bottom: 4px;
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: "Playfair Display", Georgia, serif;
     font-size: 16px;
     font-weight: 400;
     -webkit-border-radius: 30px;
@@ -1397,9 +1397,9 @@ figure {
 }
 
 .btn-primary {
-    background: #e3170aff;
+    background: #97bc62ff;
     color: #fff;
-    border: 2px solid #e3170aff;
+    border: 2px solid #97bc62ff;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -1409,13 +1409,13 @@ figure {
 }
 .btn-primary.btn-outline {
     background: transparent;
-    color: #e3170aff;
-    border: 2px solid #e3170aff;
+    color: #97bc62ff;
+    border: 2px solid #97bc62ff;
 }
 .btn-primary.btn-outline:hover,
 .btn-primary.btn-outline:focus,
 .btn-primary.btn-outline:active {
-    background: #e3170aff;
+    background: #97bc62ff;
     color: #fff;
 }
 
@@ -1567,7 +1567,7 @@ figure {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-color: #e3170aff;
+    border-color: #97bc62ff;
 }
 
 .row-pb-md {
@@ -1613,7 +1613,7 @@ figure {
 }
 
 .cookie-wrapper * {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 .cookie-wrapper .show {
@@ -1624,12 +1624,12 @@ figure {
     display: none;
 }
 header i {
-    color: #e3170aff;
+    color: #97bc62ff;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #e3170aff;
+    color: #97bc62ff;
     font-weight: 500;
     text-align: center;
 }
@@ -1637,7 +1637,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #e3170aff;
+    color: #97bc62ff;
     text-decoration: none;
     text-align: center !important;
 }
@@ -1649,10 +1649,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #e3170aff;
+    border: 2px solid #97bc62ff;
     color: #fff;
     padding: 8px 0;
-    background: #e3170aff;
+    background: #97bc62ff;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.5s ease;
@@ -1661,14 +1661,14 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #e3170aff;
+    color: #97bc62ff;
 }
 #declineBtn {
     background-color: #fff;
-    color: #e3170aff;
+    color: #97bc62ff;
 }
 #declineBtn:hover {
-    background-color: #e3170aff;
+    background-color: #97bc62ff;
     color: #fff;
 }
 /* Footer Style */
